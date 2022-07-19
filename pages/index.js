@@ -1,21 +1,65 @@
-import Head from 'next/head';
+import { useEffect } from 'react'
 import Image from 'next/image';
-import { PrismaClient } from 'prisma/prisma-client';
+import Layout from '../layout/Layout';
 
-export default function Home({ categorias }) {
 
-    console.log(categorias); 
-    return <h1>Nextjs</h1>;
+export default function Home() {
+    return (
+        <Layout>
+            <h1>Inicio</h1>
+        </Layout>
+    );
 }
 
-export const getServerSideProps = async () => {
-    const prisma = new PrismaClient();
 
-    const categorias = await prisma.categoria.findMany();
 
-    return {
-        props: {
-            categorias,
-        },
-    };
-};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  //* prisma client no corre desde el navegador
+  // useEffect(() => {
+  //   const consultardb = async () => {
+  //     const prisma = new PrismaClient();
+  //     const categorias = await prisma.categoria.findMany();
+  //     console.log(categorias);
+  //   }
+  // }, []);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// export const getServerSideProps = async () => {
+
+//     const prisma = new PrismaClient();
+//     const categorias = await prisma.categoria.findMany();
+
+//     return {
+//         props: {
+//             categorias,
+//         },
+//     };
+// };
