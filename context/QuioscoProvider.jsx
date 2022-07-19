@@ -19,6 +19,10 @@ const QuioscoProvider = ({children}) => {
         obtenerCategorias()
     }   , [])   
 
+    useEffect(() => {
+        setCategoriaActual(categorias[1])
+    }   , [categorias])
+
     //* Filtrar producto por categoria
     const hadleClickCategoria = (id) => {
         const categoria = categorias.filter( cat => cat.id === id )
