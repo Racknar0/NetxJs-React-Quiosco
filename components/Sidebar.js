@@ -7,7 +7,7 @@ const Sidebar = () => {
 
   const { categorias } = useQuiosco()
 
-  console.log(categorias);
+  //console.log(categorias);
 
   return (
     <>
