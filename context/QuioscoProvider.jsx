@@ -29,6 +29,13 @@ const QuioscoProvider = ({ children }) => {
         setCategoriaActual(categorias[1]);
     }, [categorias]);
 
+    useEffect(() => {
+        const nuevoTotal = pedido.reduce((total, producto) => (
+            producto.precio * producto.cantidad) + total, 0);
+
+        setTotal(nuevoTotal);
+    }, [pedido])
+
     //* Filtrar producto por categoria
     const hadleClickCategoria = (id) => {
         const categoria = categorias.filter((cat) => cat.id === id);
@@ -76,6 +83,38 @@ const QuioscoProvider = ({ children }) => {
         setPedido(pedidoActualizado);
     };
 
+    const colocarOrden = async (e) => {
+        e.preventDefault();
+
+        try {
+            
+            const {data} = await axios.post('/api/ordenes', {
+                pedido, nombre, total, fecha: Date.now().toString()
+            })
+            console.log(data);
+        
+            //resetear pedido
+            setCategoriaActual(categorias[0]);
+            setPedido([]);
+            setNombre('');
+            setTotal(0);
+
+            toast.success('Orden colocada correctamente');
+
+            setTimeout(() => {
+                router.push('/');
+
+            }, 3000);
+
+        } catch (error) {
+            console.log(error);
+        }
+        
+        /* console.log(pedido);
+        console.log(nombre);
+        console.log(total); */
+    };
+
     //console.log(categorias);
     return (
         <QuioscoContext.Provider
@@ -96,6 +135,8 @@ const QuioscoProvider = ({ children }) => {
                 setNombre,
                 total,
                 setTotal,
+                colocarOrden,
+                total,
             }}
         >
             {children}
