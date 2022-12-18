@@ -1,4 +1,4 @@
-deployment: https://quioscoapp-mu.vercel.app/
+deployment: https://netx-js-react-quiosco-9mhi15mfc-racknar0.vercel.app/
 
 
 
