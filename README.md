@@ -1,38 +1,89 @@
-deployment: https://netx-js-react-quiosco-9mhi15mfc-racknar0.vercel.app/
+
+<h1 align="center">🌟 PROJECT: FULL STACK PROJECT - Quiosk App
+🎨</h1>
+
+
+<h3 align="center">🛠️ App developed in Next.js, Prisma
+</h3>
 
 
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+  
+![GitHub last commit](https://img.shields.io/github/last-commit/Racknar0/REACT-Gallery_APP_PWA)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Racknar0/REACT-Gallery_APP_PWA)
+![GitHub language count](https://img.shields.io/github/languages/count/Racknar0/REACT-Gallery_APP_PWA)
+![GitHub top language](https://img.shields.io/github/languages/top/Racknar0/REACT-Gallery_APP_PWA)
+![GitHub issues](https://img.shields.io/github/issues/Racknar0/REACT-Gallery_APP_PWA)
 
-## Getting Started
+</div>
 
-First, run the development server:
+<img src="https://raw.githubusercontent.com/Racknar0/logos/master/coleccion-logos/rainbow.png" alt="css3" width="100%" height="6" />
 
-```bash
-npm run dev
-# or
-yarn dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+<h3>🚀 Deploy link: </h3>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+> 🌎 [DEPLOY LINK](https://netx-js-react-quiosco-9mhi15mfc-racknar0.vercel.app/ 'DEPLOY LINK')
 
-## Learn More
+<img src="https://raw.githubusercontent.com/Racknar0/logos/master/coleccion-logos/rainbow.png" alt="css3" width="100%" height="6" />
 
-To learn more about Next.js, take a look at the following resources:
+<h3>📄 Preview: </h3>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<img src="./preview.gif" alt="Texto alternativo" width="400px">
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<img src="https://raw.githubusercontent.com/Racknar0/logos/master/coleccion-logos/rainbow.png" alt="css3" width="100%" height="6" />
 
-## Deploy on Vercel
+<h3>📄 Technologies used and resources used :</h3>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<div style="display: flex; justify-content: start; align-items: center;">
+      <img src="https://raw.githubusercontent.com/Racknar0/logos/d31c498e1d8a1b255864198af6cb72bfd256670a/coleccion-logos/react/react-original.svg" alt="REACT" width="80" height="80" /> 
+      <img src="https://raw.githubusercontent.com/Racknar0/logos/d31c498e1d8a1b255864198af6cb72bfd256670a/coleccion-logos/javascript/javascript-original.svg" alt="css3" width="80" height="80" />
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="80" height="80" /> 
+      <img src="https://github.com/Racknar0/logos/blob/master/coleccion-logos/html5.png?raw=true" alt="css3" width="80" height="80" />
+</div>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<br>
+
+-   [REACT](https://es.reactjs.org/ 'REACT')
+-   [JAVASCRIPT](https://developer.mozilla.org/es/docs/Web/JavaScript 'JAVASCRIPT')
+-   [CSS3](https://developer.mozilla.org/es/docs/Web/CSS 'CSS3')
+-   [HTML5](https://developer.mozilla.org/es/docs/Web/HTML 'HTML5')
+
+<img src="https://raw.githubusercontent.com/Racknar0/logos/master/coleccion-logos/rainbow.png" alt="css3" width="100%" height="6" />
+
+<h3>🤖 Aviable Commands: </h3>
+
+      - npm install (Install all the dependencies of the project)
+      - npm run start (Start the project in development mode)
+
+
+<img src="https://raw.githubusercontent.com/Racknar0/logos/master/coleccion-logos/rainbow.png" alt="css3" width="100%" height="6" />
+
+<h3>⚙️ How to start: </h3>
+
+-   Clone the repository in your computer.
+-   Navigate to the root folder of the project.
+-   Run the command `npm install` to install the dependencies of the project.
+-   Run the command `npm run start` to start the project in development mode.
+-   Enjoy it. 🎉
+
+<img src="https://raw.githubusercontent.com/Racknar0/logos/master/coleccion-logos/rainbow.png" alt="css3" width="100%" height="6" />
+
+<h3>🤝 How to contribute: </h3>
+
+If you would like to contribute to this project, we would love to receive your contributions! You can help in the following ways:
+
+-   Correcting errors in the code.
+-   Adding new features to the project.
+-   Improving existing documentation.
+-   Sharing your ideas and suggestions in the "Issues" section of the project.
+-   Thank you for your interest in this project! 🎉
+
+<img src="https://raw.githubusercontent.com/Racknar0/logos/master/coleccion-logos/rainbow.png" alt="css3" width="100%" height="6" />
+
+<h3>🤝 Developed by: </h3>
+
+> 🌎 [Racknar0](https://github.com/Racknar0 'Deployment Link')
+
